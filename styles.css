@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  text-align: center;
+  background-image: url('https://storage.googleapis.com/a1aa/image/7b3b30bb-c119-463e-45f0-8fa2cc232315.jpg'); /* Use your uploaded background image here */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  padding-top: 60px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Optional overlay for better contrast */
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.social-btn {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  margin: 15px auto;
+  padding: 12px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
